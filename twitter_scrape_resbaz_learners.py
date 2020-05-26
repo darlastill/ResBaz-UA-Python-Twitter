@@ -130,6 +130,7 @@ sample.to_csv("all_sample_tweets.csv", index=False, encoding='utf-8')
 #START HERE WHEN YOU RETURN TO THIS CODE... 
 
 import os
+import pandas as pd
 os.chdir("C:/Users/AsuS/Documents/ResBaz")
 sample = pd.read_csv("all_sample_tweets.csv")
 
